@@ -1,11 +1,13 @@
-import { useState } from 'react'
-import reactLogo from
-
+import CardTrail from "./components/CardTrail";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
-
+  return (
+    <>
+    <div><h1>Hoje estamsos sós</h1></div>
+    <CardTrail/>
+    </>
+  )
 }
 
 export default App

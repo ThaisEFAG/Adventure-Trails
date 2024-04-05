@@ -1,5 +1,5 @@
-
-
+    import "./CardTraill.css";
+    
 const CardTrail = () => {
     return (
         <div className="card">
@@ -10,7 +10,7 @@ const CardTrail = () => {
             </div>
             <div className="content">
                 <div className="title-one">
-
+                <h1>Meu primeiro projeto lindo REACT</h1>
                 </div>
                 <div className="icon">
                     <span className="favorite-img-icon"></span>

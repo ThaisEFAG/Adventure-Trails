@@ -62,8 +62,10 @@ const RecordTrailForm = () => {
           <input
             type="text"
             class="input-form-record"
-            onChange={handleChangeText}
-          />
+            onChange={handleChangeText}/>
+            <label htmlFor="" className="child-records" id="img-upload">Insira imagem para a trilha:</label>
+            <input type="file" name='image' />
+            <button type='submit'>Salvar</button>
         </form>
       </div>
     </div>

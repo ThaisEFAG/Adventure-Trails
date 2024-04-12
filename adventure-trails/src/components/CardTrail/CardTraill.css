@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     text-align: center;
-    font-family: 'raleway';
+    font-family: 'raleway', sans-serif;
 }
 
 .card-section {
@@ -46,7 +46,6 @@
     background-color: transparent;
     width: 40%;
     display: block;
-    /* float: left; */
     border-radius: 10px 0 0 10px;
 }
 

@@ -3,11 +3,18 @@ import { useState } from "react";
 import "./RecordTrailForm.css"
 
 const RecordTrailForm = () => {
-  const [text, setText] = useState("");
-
-  const handleChangeText = (event) => {
-    setText(event.target.value);
-  };
+  const [post, setPost] = useState(nomedatrilha,
+  "cidade e estado",
+  "duração",
+  "trajeto",
+  "dificuldade",
+  "tipo de trilha",
+  "nome do criador da trilha",
+  "url img trilha"
+  )
+  // const handleChangeText = (event) => {
+  //   setText(event.target.value);
+  
 
   return (
     <div className="records">
@@ -64,7 +71,7 @@ const RecordTrailForm = () => {
             class="input-form-record"
             onChange={handleChangeText}/>
             <label htmlFor="" className="child-records" id="img-upload">Insira imagem para a trilha:</label>
-            <input type="file" name='image' />
+            <input type="file" class="input-form-record" name='image' />
             <button type='submit'>Salvar</button>
         </form>
       </div>

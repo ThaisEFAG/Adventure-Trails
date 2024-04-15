@@ -45,6 +45,9 @@ form {
 .input-form-record {
     width: 400px;
     color: #1c1c1c;
+    height: 25px;
+    border-radius: 12px;
+    font-weight: 700;
 }
 
 .fill {

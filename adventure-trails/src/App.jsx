@@ -1,11 +1,16 @@
-import { useState } from 'react'
-import reactLogo from
 
+//css sendo "transformado" para ser usado como js
+import "./App.css";
+import ShowHome from "./Pages/home";
+import RecordTrailForm from "./RecordTrailForm/RecordTrailForm";
+import CardTrail from "./components/CardTrail/CardTrail";
 
 function App() {
-  const [count, setCount] = useState(0)
-
-
+  
+  return (
+    
+    <CardTrail/>
+  )
 }
 
 export default App

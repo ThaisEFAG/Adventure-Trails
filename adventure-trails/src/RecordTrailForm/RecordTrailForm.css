@@ -1,0 +1,65 @@
+* {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: "raleway", sans-serif;
+    color: aliceblue;
+}
+
+body,
+html {
+    min-height: 100vh;
+    height: 100%;
+    background-color: #1c1c1c;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: .8rem 1.5rem;
+    border-radius: 5px;
+    background: linear-gradient(
+        90deg, 
+        rgba(132, 53, 222, 1) 0%,
+        rgba(184, 84, 232, 1)100%);
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 700PX;
+    align-items: center;
+}
+
+.child-records {
+    padding: 10px;
+    padding-bottom: 5px;
+}
+
+.input-form-record {
+    width: 400px;
+    color: #1c1c1c;
+    height: 25px;
+    border-radius: 12px;
+    font-weight: 700;
+}
+
+.fill {
+    font-size: 2rem;
+    margin: 1rem;
+   
+     background: linear-gradient(55deg,
+     rgba(132, 53, 222, 1) 0%,
+     rgba(184, 84, 232, 1)100%);
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+   
+}

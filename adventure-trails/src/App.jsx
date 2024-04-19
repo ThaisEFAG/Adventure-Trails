@@ -9,8 +9,10 @@ function App() {
   
   return (
     
-    <CardTrail/>
+    <ShowHome/>
   )
 }
+
+
 
 export default App

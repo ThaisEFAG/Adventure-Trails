@@ -50,9 +50,13 @@ const RecordTrailForm = () => {
           <label for="" className="child-records">
             Dificuldade:
           </label>
-          <input
+          <select
             type="text"
-            class="input-form-record"/>
+            class="input-form-record">
+              <option value="">Iniciante</option>
+              <option value="">Intermediaria</option>
+              <option value="">Avançada</option>
+          </select>
           <label for="" className="child-records">
             Nome do criador da trilha:
           </label>

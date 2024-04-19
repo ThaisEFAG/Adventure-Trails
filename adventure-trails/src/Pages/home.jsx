@@ -1,11 +1,18 @@
-import RecordTrailForm from "../RecordTrailForm/RecordTrailForm";
+// import './homeStyle.css'
 
 function ShowHome(){
     return(
-        <>
-        <p>Essa é a home</p>
-        <button>cadastrar</button>
-        </>
+        <nav>
+        <a href="/"> Adventure Trails </a>
+        <ul>
+            <li>
+                <a href="/RecordTrailForm">Cadastre uma trilha</a>
+            </li>
+            <li>
+                <a href="/CardTrail">Escolha uma trilha</a>
+            </li>
+        </ul>
+        </nav>
     )
 }
 

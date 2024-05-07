@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: aqua;
+    color: black;
+}
+
+.nav {
+    background-color: aliceblue;
+}
+
+h1 {
+    color:black
+}

@@ -1,30 +1,39 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-// import './index.css'
-import {createBrowserRouter} from "react-router-dom"
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import "./index.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+// import Home from "./Pages/Home/Home"
+import Cadastro from "./Pages/Cadastro/Cadastro";
+import Lista from "./Pages/Lista/Lista";
+import Home from './Pages/Home/Home';
 
-// const routers = createBrowserRouter([
-//     {
-//         path: "/",
-//         element:
-//     },
-//     {
-//         path: "/cadastro",
-//         element:
-//     },
-//     {
-//         path: "/lista",
-//         element:
-//     }
-// ])
+const routers = createBrowserRouter([
+    {
+        path: "/",
+        element: <Home/>
+    },
+    {
+        path: "/cadastro",
+        element: <Cadastro/>
+    },
+    {
+        path: "/lista",
+        element: <Lista/>
+    }
+])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    
-    <App/>
-)
+    <RouterProvider  router = {routers}>
+    </RouterProvider>
+//     <>
+//   <Routes>
+//             <Route path="/" element={<Home/> } />
+//             <Route path="/cadastro" element={<Cadastro />} />
+//         </Routes>
+//     </BrowserRouter>
+
 // ReactDOM.createRoot(document.getElementById('root')).render(
 //   <React.StrictMode>
 //     <App />
 //   </React.StrictMode>,
-// )
+)
